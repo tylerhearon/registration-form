@@ -11,27 +11,27 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-  <div>
-    <h1>Want to go to Mars?</h1>
+  <div class="whole island">
+    <h1 class="push">Want to go to Mars?</h1>
     <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
     <form action="https://formspree.io/hear0063@algonquinlive.com" method="POST">
       <fieldset>
-        <legend>Personal details</legend>
+        <legend class="push italic">Personal details</legend>
         <input type="hidden" name="_subject" value="Request to join the mission">
         <div class="grid">
-          <div class="unit unit-xs-1 unit-l-1-2">
+          <div class="unit push unit-xs-1 unit-l-1-2">
             <label for="name">Name</label>
             <input id="name" name="name" required>
           </div>
-          <div class="unit unit-xs-1 unit-l-1-2">
+          <div class="unit push unit-xs-1 unit-l-1-2">
             <label for="age">Age</label>
             <input id="age" name="age" required>
           </div>
-          <div class="unit unit-xs-1 unit-l-1-2">
+          <div class="unit push unit-xs-1 unit-l-1-2">
             <label for="email">Your Email</label>
             <input id="email" name="email" type="email" required>
           </div>
-          <div class="unit unit-xs-1 unit-l-1-2">
+          <div class="unit push unit-xs-1 unit-l-1-2">
             <label for="fitness">Physical fitness</label>
             <select id="fitness" name="fitness">
               <option>Super-human</option>
@@ -47,13 +47,13 @@
         </div>
       </fieldset>
       <fieldset>
-        <legend>Mission statement</legend>
+        <legend class="push italic">Mission statement</legend>
         <div>
           <label for="why">Why do you want to go to Mars?</label>
-          <textarea id="why" name="why" required></textarea>
+          <textarea id="why" class="push" name="why" required></textarea>
         </div>
-        <div>
-          <button class="btn" type="submit">Register for the trip!</button>
+        <div class="text-center">
+          <button class="btn push" type="submit">Register for the trip!</button>
         </div>
       </fieldset>
     </form>
