@@ -9,9 +9,21 @@ html {
 }
 
 h1 {
-  border-bottom: 2px solid #000;
+  border-bottom: 1px solid #000;
 }
 
 .whole {
   background-color: #fff;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .groupleft {
+    padding-left: .5em;
+  }
+
+  .groupright {
+    padding-right: .5em;
+  }
+
 }
